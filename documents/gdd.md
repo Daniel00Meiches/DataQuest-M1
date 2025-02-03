@@ -80,7 +80,9 @@
 1 | O controle do personagem será realizado usando as teclas WASD para navegação pelas fases
 2 | O personagem perde uma vida toda vez que tocar em um inimigo ou em algum projétil inimigo
 3 | O jogo deve possuir uma tela de abertura para o jogador selecionar se quer jogar sozinho ou em dupla
-4 | ...
+4 |
+5 |
+6 |
 
 ## 1.3. Público-alvo do Projeto (sprint 2)
 
