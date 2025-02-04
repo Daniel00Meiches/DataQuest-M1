@@ -26,9 +26,9 @@ Júnior</a>
 ### Instrutores
 - <a href="https://www.linkedin.com/in/victorbarq/">Profa. Júlia Stateri</a>
 - <a href="https://www.linkedin.com/in/victorbarq/">Prof. Cristiano da Silva Benites</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Prof. Filipe Gonçalves</a> 
+- <a href="https://www.linkedin.com/in/victorbarq/">Prof. Filipe Gonçalves</a>
 - <a href="https://www.linkedin.com/in/victorbarq/">Prof. Geraldo Vasconcelos</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Prof. Pedro</a>
+- <a href="https://www.linkedin.com/in/victorbarq/">Prof. Pedro Marins Freire Teberga</a>
 
 ## 📜 Descrição
 
