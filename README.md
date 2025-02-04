@@ -6,22 +6,23 @@
 
 <br>
 
-# Nome do projeto
+# Data Quest
 
-## Nome do grupo
+## Grupo 04
 
-## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 5</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 6</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 7</a>
+## 👨‍🎓 Integrantes:
+- <a href="https://www.linkedin.com/in/#/">André David Katz</a>
+- <a href="https://www.linkedin.com/in/celsojwnior/">Celso Rodrigues Rocha 
+Júnior</a>
+- <a href="https://www.linkedin.com/in/#/">Daniel Meiches</a>
+- <a href="https://www.linkedin.com/in/kaian-moura-56b8871b4/">Kaian Santos Moura</a>
+- <a href="https://www.linkedin.com/in/luiz-gustavo-0b33b62b7/">Luiz Gustavo Borges Oliveira</a>
+- <a href="https://www.linkedin.com/in/#/">Miguel Ferreira de Siqueira Almeida</a>
+- <a href="https://www.linkedin.com/in/wendel-feitosa-975bb1346?/">Wendel Hebert Feitosa</a>
 
 ## 👩‍🏫 Professores:
 ### Orientador(a) 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do orientador</a>
+- <a href="https://www.linkedin.com/in/victorbarq/">Laíza Ribeiro Silva</a>
 ### Instrutores
 - <a href="https://www.linkedin.com/in/victorbarq/">Nome do instrutor 1</a>
 - <a href="https://www.linkedin.com/in/victorbarq/">Nome do instrutor 2</a> 
