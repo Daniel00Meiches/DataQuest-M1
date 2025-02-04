@@ -75,12 +75,13 @@
 *ATUALIZE ESTA SEÇÃO SEMPRE QUE ALGUM REQUISITO MUDAR EM SEU PROJETO*
 
 *Exemplo de tabela de requisitos*
-\# | Requisito | Tarefas necessárias  
+\# | Requisito | Descrição  
 --- | --- | ---
 1 | O controle do personagem será realizado usando as teclas WASD para navegação pelas fases | O jogador pode mover o personagem com as teclas direcionais padrão de jogos no teclado.
 2 | O personagem perde uma vida toda vez que tocar em um inimigo ou em algum projétil inimigo | O personagem possui um contador de vidas que diminui ao sofrer dano.
 3 | O jogo deve possuir uma tela de abertura para o jogador selecionar se quer jogar sozinho ou em dupla | Na tela inicial, o jogador pode escolher entre os modos singleplayer e multiplayer.
 4 |  |  
+
 
 
 ## 1.3. Público-alvo do Projeto (sprint 2)
