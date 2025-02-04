@@ -22,13 +22,13 @@ Júnior</a>
 
 ## 👩‍🏫 Professores:
 ### Orientador(a) 
-- <a href="https://www.linkedin.com/in/victorbarq/">Laíza Ribeiro Silva</a>
+- <a href="https://www.linkedin.com/in/victorbarq/">Profa. Laíza Ribeiro Silva</a>
 ### Instrutores
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do instrutor 1</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do instrutor 2</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do instrutor 3</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do instrutor 4</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do instrutor 5</a> 
+- <a href="https://www.linkedin.com/in/victorbarq/">Profa. Júlia Stateri</a>
+- <a href="https://www.linkedin.com/in/victorbarq/">Prof. Cristiano da Silva Benites</a> 
+- <a href="https://www.linkedin.com/in/victorbarq/">Prof. Filipe Gonçalves</a> 
+- <a href="https://www.linkedin.com/in/victorbarq/">Prof. Geraldo Vasconcelos</a>
+- <a href="https://www.linkedin.com/in/victorbarq/">Prof. Pedro</a>
 
 ## 📜 Descrição
 
