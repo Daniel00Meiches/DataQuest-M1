@@ -75,10 +75,11 @@
 *Exemplo de tabela de requisitos*
 \# | Requisito | Descrição  
 --- | --- | ---
-1 | O controle do personagem será realizado usando as teclas WASD para navegação pelas fases | O jogador pode mover o personagem com as teclas direcionais padrão de jogos no teclado.
-2 | O personagem perde uma vida toda vez que tocar em um inimigo ou em algum projétil inimigo | O personagem possui um contador de vidas que diminui ao sofrer dano.
-3 | O jogo deve possuir uma tela de abertura para o jogador selecionar se quer jogar sozinho ou em dupla | Na tela inicial, o jogador pode escolher entre os modos singleplayer e multiplayer.
-4 |  |  
+1 | O controle do personagem será realizado usando as teclas WASD para movimentação. | O jogador pode mover o personagem utilizando as teclas direcionais padrão de jogos no teclado.
+2 | O personagem poderá interagir com NPCs para iniciar diálogos. | Durante a exploração, o jogador pode conversar com personagens do jogo para obter informações e avançar na narrativa.
+3 | O combate será baseado em perguntas e respostas sobre LGPD. | Durante os confrontos, o jogador precisará responder corretamente a perguntas sobre a Lei Geral de Proteção de Dados (LGPD) para vencer os desafios.
+4 | O jogo será dividido em cinco fases representando os andares de uma escola. | Cada fase representará um andar diferente da escola, totalizando cinco andares com desafios progressivos.
+5 |  |  
 
 
 
