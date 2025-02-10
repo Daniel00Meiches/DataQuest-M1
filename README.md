@@ -17,7 +17,7 @@ Júnior</a>
 - <a href="https://www.linkedin.com/in/d-m-934942320/">Daniel Meiches</a>
 - <a href="https://www.linkedin.com/in/kaian-moura-56b8871b4/">Kaian Santos Moura</a>
 - <a href="https://www.linkedin.com/in/luiz-gustavo-0b33b62b7/">Luiz Gustavo Borges Oliveira</a>
-- <a href="https://www.linkedin.com/in/#/">Miguel Ferreira de Siqueira Almeida</a>
+- <a href="https://www.linkedin.com/in/miguel-almeida-83175b350/">Miguel Ferreira de Siqueira Almeida</a>
 - <a href="https://www.linkedin.com/in/wendel-feitosa-975bb1346?/">Wendel Hebert Feitosa</a>
 
 ## 👩‍🏫 Professores:
