@@ -14,7 +14,7 @@
 - <a href="https://www.linkedin.com/in/#/">André David Katz</a>
 - <a href="https://www.linkedin.com/in/celsojwnior/">Celso Rodrigues Rocha 
 Júnior</a>
-- <a href="https://www.linkedin.com/in/#/">Daniel Meiches</a>
+- <a href="https://www.linkedin.com/in/d-m-934942320/">Daniel Meiches</a>
 - <a href="https://www.linkedin.com/in/kaian-moura-56b8871b4/">Kaian Santos Moura</a>
 - <a href="https://www.linkedin.com/in/luiz-gustavo-0b33b62b7/">Luiz Gustavo Borges Oliveira</a>
 - <a href="https://www.linkedin.com/in/#/">Miguel Ferreira de Siqueira Almeida</a>
@@ -22,13 +22,13 @@ Júnior</a>
 
 ## 👩‍🏫 Professores:
 ### Orientador(a) 
-- <a href="https://www.linkedin.com/in/victorbarq/">Profa. Laíza Ribeiro Silva</a>
+- <a href="https://www.linkedin.com/in/#/">Profa. Laíza Ribeiro Silva</a>
 ### Instrutores
-- <a href="https://www.linkedin.com/in/victorbarq/">Profa. Júlia Stateri</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Prof. Cristiano da Silva Benites</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Prof. Filipe Gonçalves</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Prof. Geraldo Vasconcelos</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Prof. Pedro Marins Freire Teberga</a>
+- <a href="https://www.linkedin.com/in/#/">Profa. Júlia Stateri</a>
+- <a href="https://www.linkedin.com/in/#/">Prof. Cristiano da Silva Benites</a> 
+- <a href="https://www.linkedin.com/in/#/">Prof. Filipe Gonçalves</a>
+- <a href="https://www.linkedin.com/in/#/">Prof. Geraldo Vasconcelos</a>
+- <a href="https://www.linkedin.com/in/#/">Prof. Pedro Marins Freire Teberga</a>
 
 ## 📜 Descrição
 
@@ -56,15 +56,15 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🗃 Histórico de lançamentos
 
-* 0.5.0 - XX/XX/2024
+* 0.5.0 - 11/04/2025
     * 
-* 0.4.0 - XX/XX/2024
+* 0.4.0 - 28/03/2025
     * 
-* 0.3.0 - XX/XX/2024
+* 0.3.0 - 14/03/2025
     * 
-* 0.2.0 - XX/XX/2024
+* 0.2.0 - 28/02/2025
     * 
-* 0.1.0 - XX/XX/2024
+* 0.1.0 - 14/02/2025
     *
 
 ## 📋 Licença/License
