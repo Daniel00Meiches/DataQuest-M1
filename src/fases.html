@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data quest</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fase.css">
+</head>
+<body>
+    <div id="fase-container">
+        <h1>Escolha uma Fase</h1>
+        <div class="botoes-fase">
+            <a href="Pages/Fases/fase1/fase1.html"><button class="fase" onclick="selecionarFase(1)">Fase 1</button></a>
+            <button class="fase" onclick="selecionarFase(2)">Fase 2</button>
+            <button class="fase" onclick="selecionarFase(3)">Fase 3</button>
+            <button class="fase" onclick="selecionarFase(4)">Fase 4</button>
+            <button class="fase" onclick="selecionarFase(5)">Fase 5</button>
+        </div>
+    </div>
+
+    <script>
+        function selecionarFase(fase) {
+            alert("Você selecionou a Fase " + fase);
+            // Aqui você pode redirecionar para a página da fase
+            // window.location.href = "fase" + fase + ".html";
+        }
+    </script>
+</body>
+</html>

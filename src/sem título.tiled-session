@@ -1,0 +1,123 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "Todos os Ficheiros (*)",
+    "fileStates": {
+        "#1-freetileset": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Inteli/Documents/tileddd/Classroom Props First Spritesheet 1.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/Inteli/Documents/tileddd/Escola.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Pages/Fases/fase1/Art Room Spritesheet 4.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Pages/Fases/fase1/Classroom First Spritesheet 1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Pages/Fases/fase1/Classroom First Spritesheet 6.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Pages/Fases/fase1/Classroom Props First Spritesheet 4.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "Pages/Fases/fase1/Classroom Second Spritesheet 5.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Pages/Fases/fase1/Classroom Second Spritesheet 8.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Pages/Fases/fase1/classroom.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Pages/Fases/fase1/fase1.json": {
+            "scale": 0.7131333333333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 418.57530148639813,
+                "y": 373.702907357203
+            }
+        },
+        "Pages/Fases/fase1/fase1.png": {
+            "scaleInDock": 1
+        },
+        "Pages/Fases/fase1/fase2.json": {
+            "scale": 0.71,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 750,
+                "y": 499.2957746478874
+            }
+        },
+        "Pages/Fases/fase1/mapa.json": {
+            "scale": 0.7496093749999999,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 320.833767587285,
+                "y": 511.5997915581031
+            }
+        },
+        "Pages/Fases/fase1/strokespritesheet20123.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "Pages/Fases/fase1/strokespritesheet20124.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/Inteli/Documents/teste de game/Pages/Fases/fase1",
+    "last.externalTilesetPath": "C:/Users/Inteli/Downloads/2dClassroomAssetPackByStyloo/2dClassroomAssetPackByStyloo/Principal Office",
+    "last.imagePath": "C:/Users/Inteli/Downloads/1-freetileset",
+    "map.height": 32,
+    "map.lastUsedExportFilter": "Arquivos de mapa JSON (*.tmj *.json)",
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 32,
+    "map.tileWidth": 32,
+    "map.width": 32,
+    "openFiles": [
+    ],
+    "project": "sem título.tiled-project",
+    "recentFiles": [
+        "Pages/Fases/fase1/mapa.json",
+        "Pages/Fases/fase1/fase2.json",
+        "Pages/Fases/fase1/strokespritesheet20123.tsx",
+        "Pages/Fases/fase1/Classroom Props First Spritesheet 4.tsx",
+        "Pages/Fases/fase1/strokespritesheet20124.tsx",
+        "Pages/Fases/fase1/Art Room Spritesheet 4.tsx",
+        "Pages/Fases/fase1/Classroom Second Spritesheet 5.tsx",
+        "Pages/Fases/fase1/Classroom Second Spritesheet 8.tsx",
+        "Pages/Fases/fase1/Classroom First Spritesheet 1.tsx",
+        "Pages/Fases/fase1/Classroom First Spritesheet 6.tsx",
+        "Pages/Fases/fase1/classroom.tsx",
+        "C:/Users/Inteli/Documents/tileddd/Escola.tsx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFilter": "Todos os Ficheiros (*)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    },
+    "tileset.type": 0
+}

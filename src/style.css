@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh; /* Ocupa toda a altura da tela */
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 50%; /* Move a borda esquerda para o meio da tela */
+    transform: translateX(-50%); /* Ajusta a posição para que o centro do elemento fique alinhado */
+    bottom: 0;
+    width: 60%; /* Mantém a largura desejada */
+    max-width: 60%;
+    background-image: url(assets/fundoinicial.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+
+/* Container do jogo */
+#game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column; /* Para alinhar os elementos dentro dele */
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Ajustes nos botões para ficarem centralizados */
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre os botões */
+}
+
+.botaojogar{
+    text-align: center;
+    height: 64px;
+    width: 64px;
+    margin: 10px 0; /* Margem para manter o espaçamento uniforme */
+}
+
+
+.botaocomojogar,
+.botaosobre {
+    text-align: center;
+    height: 55px;
+    width: 280px;
+    margin: 10px 0; /* Margem para manter o espaçamento uniforme */
+}
+
+.botaojogar:hover,
+.botaocomojogar:hover,
+.botaosobre:hover {
+    transform: scale(1.1);
+}
+
+/* Ajuste da logo */
+.logo {
+    height: 110px;
+    margin-bottom: 80px;
+    align-items: center;
+    position: relative;
+}
+
+/* Estilo do popup pixelizado */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #222;
+    padding: 15px;
+    border: 5px solid #fff;
+    image-rendering: pixelated;
+    box-shadow: 5px 5px 0px #000, 10px 10px 0px #fff, 15px 15px 0px #000;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    z-index: 100;
+}
+
+.popup-content {
+    color: white;
+    font-size: 12px;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
+
+.popup h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.popup p {
+    font-size: 14px;
+}
