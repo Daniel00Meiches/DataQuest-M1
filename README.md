@@ -32,10 +32,19 @@ Júnior</a>
 
 ## 📜 Descrição
 
-*Descreva seu projeto (até 600 palavras)*
+Em um dia aparentemente comum, a rotina escolar é interrompida por um ataque inesperado. Um grupo de hackers invade o sistema da escola, tranca professores e alunos em suas salas e começa a roubar dados sigilosos para vendê-los. Seu plano está quase perfeito — mas há uma falha: o protagonista.
 
-*Inclua o link para o jogo aqui*
+Nosso herói, um aluno desajeitado e constantemente atrasado, chega à escola depois do início das aulas. Sem ter ideia do que é LGPD (Lei Geral de Proteção de Dados) e sem perceber o que está acontecendo, ele entra no prédio por uma janela quebrada. O ambiente está estranho, sombrio. Logo, ele encontra um colega escondido dentro de um armário, que revela a gravidade da situação. Agora, o protagonista precisa atravessar a escola, enfrentando os lacaios robôs dos hackers e resgatando alunos e professores enquanto tenta impedir o roubo dos dados.
 
+### 🎮 Jogabilidade
+O jogo é estruturado em fases, cada uma representando um andar da escola. Cada fase tem desafios próprios, incluindo batalhas em um sistema de RPG, no qual os ataques do protagonista são realizados ao responder corretamente perguntas sobre LGPD.
+
+Além das batalhas, há elementos de exploração e furtividade. Os corredores da escola são monitorados por câmeras de segurança hackeadas, e o jogador precisa atravessá-los sem ser detectado. Em algumas fases, robôs patrulham os corredores, forçando o protagonista a encontrar formas criativas de distraí-los para progredir.
+
+### 🏗 Status do Projeto
+O jogo ainda está em desenvolvimento, com a estrutura principal e mecânicas sendo refinadas. Estamos trabalhando na criação das fases, batalhas e sistema de perguntas para tornar a experiência envolvente e educativa.
+
+Link para o jogo: [Inserir aqui quando disponível]
 
 ## 📁 Estrutura de pastas
 
