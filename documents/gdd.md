@@ -3,7 +3,7 @@
 
 # GDD - Game Design Document - Módulo 1 - Inteli
 
-## Grupo 04
+## CyberTech
 
 #### André David Katz, Celso Rodrigues Rocha Júnior, Daniel Meiches, Kaian Santos Moura, Luiz Gustavo Borges Oliveira, Miguel Ferreira de Siqueira Almeida e Wendel Hebert Feitosa.
 
