@@ -8,7 +8,7 @@
 
 # Data Quest
 
-## Grupo 04
+## CyberTech
 
 ## 👨‍🎓 Integrantes:
 - <a href="https://www.linkedin.com/in/andre-katz-659065350/">André David Katz</a>
