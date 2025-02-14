@@ -11,20 +11,60 @@
     <div id="fase-container">
         <h1>Escolha uma Fase</h1>
         <div class="botoes-fase">
-            <a href="Pages/Fases/fase1/fase1.html"><button class="fase" onclick="selecionarFase(1)">Fase 1</button></a>
-            <button class="fase" onclick="selecionarFase(2)">Fase 2</button>
-            <button class="fase" onclick="selecionarFase(3)">Fase 3</button>
-            <button class="fase" onclick="selecionarFase(4)">Fase 4</button>
-            <button class="fase" onclick="selecionarFase(5)">Fase 5</button>
+            <div class="fase-container">
+                <a href="Pages/Fases/fase1/fase1.html">
+                    <button class="fase">Fase 1</button>
+                </a>
+            </div>
+            
+            <div class="fase-container bloqueada">
+                <button class="fase">Fase 2</button>
+                <img src="assets/cadeado.png" class="cadeado" alt="Cadeado">
+            </div>
+    
+            <div class="fase-container bloqueada">
+                <button class="fase">Fase 3</button>
+                <img src="assets/cadeado.png" class="cadeado" alt="Cadeado">
+            </div>
+    
+            <div class="fase-container bloqueada">
+                <button class="fase">Fase 4</button>
+                <img src="assets/cadeado.png" class="cadeado" alt="Cadeado">
+            </div>
+    
+            <div class="fase-container bloqueada">
+                <button class="fase">Fase 5</button>
+                <img src="assets/cadeado.png" class="cadeado" alt="Cadeado">
+            </div>
         </div>
     </div>
+    
 
     <script>
+
+window.onload = function() {
+    document.body.classList.add("transition-effect"); // Inicia a animação inicial
+
+    setTimeout(() => {
+        document.body.classList.add("floating-effect"); // Ativa o movimento suave após a transição
+    }, 1500); // 1.5s = tempo da animação `zoomBackgroundTransition`
+};
+
+function selecionarFase(fase) {
+    document.body.classList.add("transition-effect"); // Ativa o efeito antes de sair
+
+    setTimeout(() => {
+        window.location.href = "Pages/Fases/fase" + fase + "/fase" + fase + ".html"; // Redireciona após a animação
+    }, 2500); // Tempo igual à duração da animação no CSS (2.5s)
+}
+
         function selecionarFase(fase) {
             alert("Você selecionou a Fase " + fase);
             // Aqui você pode redirecionar para a página da fase
             // window.location.href = "fase" + fase + ".html";
         }
+
+        
     </script>
 </body>
 </html>

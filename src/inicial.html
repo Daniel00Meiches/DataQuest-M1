@@ -13,20 +13,59 @@
     </div>
 
     <div class="botoes">
-        <a href="fases.html"><img class="botaojogar" src="assets/botoes/botaostart.png" alt="jogar"></a>
-        <img class="botaocomojogar" src="assets/botoes/comojogar.png" alt="comojogar" onclick="abrirPopup()">
-        <img class="botaosobre" src="assets/botoes/botaosobre.png" alt="Sobre">
+       <img id="botaoJogar" class="botaojogar" src="assets/botoes/botaostart.png" alt="Jogar">
+        <img id="botaocomojogar" src="assets/botoes/comojogar.png" alt="comojogar" onclick="abrirPopup()">
+        <img id="botaosobre" src="assets/botoes/botaosobre.png" alt="Sobre" onclick="abrirPopupSobre()">
+
     </div>
 
     <div id="popup-como-jogar" class="popup">
         <div class="popup-content">
             <span class="close" onclick="fecharPopup()">&times;</span>
             <h2>Como Jogar</h2>
-            <p>Use as setas para mover e a tecla espaço para interagir.
-            </p>
+            <p>Use as setas ou 'W A S D' para mover e a tecla <b>E</b> para interagir.</p>
+    
+            <div class="controls">
+                <div class="wasd">
+                    <div class="key" id="key-w">W</div>
+                    <div class="row">
+                        <div class="key" id="key-a">A</div>
+                        <div class="key" id="key-s">S</div>
+                        <div class="key" id="key-d">D</div>
+                    </div>
+                </div>
+    
+                <div class="arrows">
+                    <div class="key" id="key-up">↑</div>
+                    <div class="row">
+                        <div class="key" id="key-left">←</div>
+                        <div class="key" id="key-down">↓</div>
+                        <div class="key" id="key-right">→</div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Nova seção para "Como Interagir" -->
+            <div class="interaction-section">
+                <h2>Como Interagir</h2>
+                <p>Pressione <b>E</b> para interagir com objetos e NPCs.</p>
+                <div class="interaction">
+                    <div class="key" id="key-e">E</div>
+                </div>
+            </div>
         </div>
     </div>
 
+    <div id="popup-sobre" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="fecharPopupSobre()">&times;</span>
+            <h2>Sobre o Jogo</h2>
+            <p>Jogo criado em parceria com a <b>Google for Education</b></p>
+    
+            <h3>Desenvolvedores:</h3>
+            <p>André Katz, Celso Rocha, Daniel Meiches, Kaian Santos, Luiz Fernando, Miguel Almeida, Wendel</p>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

@@ -14,18 +14,70 @@ body::before {
     content: '';
     position: fixed;
     top: 0;
-    left: 50%; /* Move a borda esquerda para o meio da tela */
-    transform: translateX(-50%); /* Ajusta a posição para que o centro do elemento fique alinhado */
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 0;
-    width: 60%; /* Mantém a largura desejada */
-    max-width: 60%;
-    background-image: url(assets/fundoinicial.webp);
+    width: 100%;
+    max-width: 100%;
+    background-image: url(assets/inicio.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    filter: blur(2px);
     z-index: -1;
+    
+    /* Animação */
+    animation: zoomBackground 8s infinite alternate ease-in-out;
 }
+
+@keyframes zoomBackground {
+    0% {
+        transform: translateX(-50%) scale(1);
+    }
+    100% {
+        transform: translateX(-50%) scale(1.1); /* Aumenta 10% no zoom */
+    }
+}
+
+@keyframes zoomInEffect {
+    0% {
+        transform: translateX(-50%) scale(1);
+        transform-origin: 50% 50%;
+        opacity: 1; /* Começa visível */
+    }
+    80% {
+        opacity: 1; /* Mantém visível até perto do fim */
+    }
+    100% {
+        transform: translateX(-50%) scale(9.2);
+        transform-origin: 50% 50%;
+        opacity: 0; /* Some suavemente no final */
+    }
+}
+
+/* Aplica o efeito de zoom e fade apenas no fundo */
+body.zoom-effect::before {
+    animation: zoomInEffect 1.5s forwards ease-in-out;
+}
+
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.8); /* Dá um leve efeito de encolhimento */
+    }
+}
+
+/* Quando o zoom for ativado, os elementos da tela desaparecem */
+.zoom-effect .title,
+.zoom-effect .botoes {
+    animation: fadeOut 1s forwards ease-in-out;
+}
+
 
 
 /* Container do jogo */
@@ -48,58 +100,52 @@ body::before {
     align-items: center;
     gap: 20px; /* Espaçamento entre os botões */
 }
-
-.botaojogar{
-    text-align: center;
-    height: 64px;
-    width: 64px;
-    margin: 10px 0; /* Margem para manter o espaçamento uniforme */
-}
-
-
-.botaocomojogar,
-.botaosobre {
-    text-align: center;
-    height: 55px;
-    width: 280px;
-    margin: 10px 0; /* Margem para manter o espaçamento uniforme */
-}
-
-.botaojogar:hover,
-.botaocomojogar:hover,
-.botaosobre:hover {
-    transform: scale(1.1);
-}
-
 /* Ajuste da logo */
 .logo {
-    height: 110px;
+    height: 250px;
     margin-bottom: 80px;
     align-items: center;
     position: relative;
+    
+    /* Animação */
+    animation: moveLogo 6s infinite alternate ease-in-out;
 }
 
-/* Estilo do popup pixelizado */
+@keyframes moveLogo {
+    0% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+
 .popup {
-    display: none;
+    display: none; /* Começa oculto */
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
-    background-color: #222;
+    background: #111;
+    color: white;
     padding: 15px;
-    border: 5px solid #fff;
-    image-rendering: pixelated;
-    box-shadow: 5px 5px 0px #000, 10px 10px 0px #fff, 15px 15px 0px #000;
-    font-family: 'Press Start 2P', cursive;
+    border-radius: 0px;
+    width: 400px;
+    height: auto;
     text-align: center;
-    z-index: 100;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+    font-family: 'Press Start 2P', cursive;
+    border: 4px solid white;
+    image-rendering: pixelated;
 }
 
+
 .popup-content {
-    color: white;
-    font-size: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .close {
@@ -112,10 +158,65 @@ body::before {
 }
 
 .popup h2 {
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 10px;
 }
 
 .popup p {
-    font-size: 14px;
+    font-size: 10px;
 }
+
+/* Controles estilizados */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.wasd, .arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.key {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gray;
+    border: 4px solid white;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0px black;
+    image-rendering: pixelated;
+}
+
+/* Efeito de destaque para animação */
+.animate {
+    background: rgb(8, 147, 4) !important;
+    color: black !important;
+    box-shadow: 4px 4px 0px white !important;
+}
+
+/* Estilização da seção de interação */
+.interaction-section {
+    margin-top: 30px; /* Espaço entre os controles e a tecla "E" */
+}
+
+.interaction {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
